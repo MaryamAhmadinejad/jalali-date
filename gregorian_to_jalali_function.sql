@@ -1,3 +1,4 @@
+DROP FUNCTION IF EXISTS gregorian_to_jalali;
 DELIMITER ;;
 CREATE FUNCTION gregorian_to_jalali(gregorian_date date) RETURNS VARCHAR(255)
 DETERMINISTIC
